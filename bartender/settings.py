@@ -131,9 +131,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bartender',
-        'USER': 'bar',
-        'PASSWORD': 'AP3bartender',
-        'HOST': '127.0.0.1',
+        'USER': 'bartender',
+        'PASSWORD': 'pNY3WVN26iBnghk',
+        'HOST': 'miraikeitai2018-bartender.c8ccivhsl3vk.ap-northeast-1.rds.amazonaws.com',
         'POST': '5432'
      }
 }
