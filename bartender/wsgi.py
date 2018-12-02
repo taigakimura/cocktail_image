@@ -24,7 +24,7 @@ application = get_wsgi_application()
 
 
 def awake():
-    schedule.every().day.at("1:06").do(collaborative_filtering.collaborative_filtering, )
+    schedule.every().day.at("10:00").do(collaborative_filtering.collaborative_filtering, )
     while True:
         schedule.run_pending()
         time.sleep(1)
